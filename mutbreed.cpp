@@ -37,7 +37,7 @@ keyboard *mutate(keyboard *parent)
  *  Add graphs A, C, E and G of parent 1 to child keyboard                           *
  *  Add graphs B, D, F and H of parent 2 to child keyboard                           *
  *  Traverse the child keyboard to find collisions                                   *
- *       keeping track of a running list of duplicated keys                          *
+ *       keeping track of a running list of non duplicated keys                      *
  *  Set every collisions to NULL                                                     * 
  *  Randomly fill in the NULL keys with missing keys from the running list           *
  *  return child keyboard                                                            *
